@@ -1,0 +1,39 @@
+--- Job gamsJupyter1_reset.gms Start 12/06/20 15:57:23 32.2.0 rc62c018 WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    D:\GAMS\gmsprmNT.txt
+--- GAMS Parameters defined
+    LP CPLEX
+    MIP CPLEX
+    RMIP CPLEX
+    NLP CONOPT
+    MCP PATH
+    MPEC NLPEC
+    RMPEC NLPEC
+    CNS CONOPT
+    DNLP CONOPT
+    RMINLP CONOPT
+    MINLP DICOPT
+    QCP CONOPT
+    MIQCP SBB
+    RMIQCP CONOPT
+    EMP JAMS
+    Input D:\Github\CS524-Final-Project\gamsJupyter1_reset.gms
+    Output D:\Github\CS524-Final-Project\gamsJupyter1_reset.lst
+    Save D:\Github\CS524-Final-Project\_gams_py_gcp0.g00
+    ScrDir D:\Github\CS524-Final-Project\225a\
+    SysDir D:\GAMS\
+    CurDir D:\Github\CS524-Final-Project\
+    LogOption 3
+    LogFile D:\Github\CS524-Final-Project\gamsJupyter1_reset.log
+    GDX D:\Github\CS524-Final-Project\_gams_py_gdb0.gdx
+GAMS 32.2.0   Copyright (C) 1987-2020 GAMS Development. All rights reserved
+Licensee: Introduction to Optimization (CS/ISyE/ECE 524) S200826/0001AB-GEN
+          University of Wisconsin-Madison, Computer Sciences Dept.   DCE850
+          C:\Users\Jack Cai\Documents\GAMS\gamslice.txt
+          Evaluation license: Not for commercial or production use
+--- Starting compilation
+--- gamsJupyter1_reset.gms(1) 2 Mb
+--- Starting execution - empty program
+--- GDX File D:\Github\CS524-Final-Project\_gams_py_gdb0.gdx
+*** Status: Normal completion
+--- Job gamsJupyter1_reset.gms Stop 12/06/20 15:57:23 elapsed 0:00:00.048
