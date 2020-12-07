@@ -1,0 +1,142 @@
+--- Job gamsJupyter5.gms Start 12/06/20 22:54:36 32.2.0 rc62c018 WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    D:\GAMS\gmsprmNT.txt
+--- GAMS Parameters defined
+    LP CPLEX
+    MIP CPLEX
+    RMIP CPLEX
+    NLP CONOPT
+    MCP PATH
+    MPEC NLPEC
+    RMPEC NLPEC
+    CNS CONOPT
+    DNLP CONOPT
+    RMINLP CONOPT
+    MINLP DICOPT
+    QCP CONOPT
+    MIQCP SBB
+    RMIQCP CONOPT
+    EMP JAMS
+    Restart D:\Github\CS524-Final-Project\_gams_py_gcp0.g00
+    Input D:\Github\CS524-Final-Project\gamsJupyter5.gms
+    Output D:\Github\CS524-Final-Project\gamsJupyter5.lst
+    Save D:\Github\CS524-Final-Project\_gams_py_gcp4.g0?
+    ScrDir D:\Github\CS524-Final-Project\225a\
+    SysDir D:\GAMS\
+    CurDir D:\Github\CS524-Final-Project\
+    LogOption 3
+    LogFile D:\Github\CS524-Final-Project\gamsJupyter5.log
+    Trace D:\Github\CS524-Final-Project\gamsJupyter5.trc
+    TraceOpt 3
+    GDX D:\Github\CS524-Final-Project\_gams_py_gdb4.gdx
+GAMS 32.2.0   Copyright (C) 1987-2020 GAMS Development. All rights reserved
+Licensee: Introduction to Optimization (CS/ISyE/ECE 524) S200826/0001AB-GEN
+          University of Wisconsin-Madison, Computer Sciences Dept.   DCE850
+          C:\Users\Jack Cai\Documents\GAMS\gamslice.txt
+          Evaluation license: Not for commercial or production use
+--- Starting continued compilation
+--- Workfile was generated under GAMS version WEX322-322
+--- gamsJupyter5.gms(59) 3 Mb
+--- Starting execution: elapsed 0:00:00.009
+--- gamsJupyter5.gms(50) 4 Mb
+--- Generating MIP model sr
+--- gamsJupyter5.gms(77) 4 Mb
+---   1,821 rows  2,011 columns  5,621 non-zeroes
+---   2,010 discrete-columns
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:00.045
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.09 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 1
+CPXPARAM_Parallel                                1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+CPXPARAM_WorkDir                                 "D:\Github\CS524-Final-Project\225a\"
+Tried aggregator 3 times.
+MIP Presolve eliminated 821 rows and 931 columns.
+MIP Presolve added 70 rows and 0 columns.
+MIP Presolve modified 3940 coefficients.
+Aggregator did 855 substitutions.
+Reduced MIP has 215 rows, 180 columns, and 915 nonzeros.
+Reduced MIP has 180 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (5.57 ticks)
+Found incumbent of value 90.000000 after 0.02 sec. (5.87 ticks)
+Probing time = 0.00 sec. (0.18 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 215 rows, 180 columns, and 915 nonzeros.
+Reduced MIP has 180 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.72 ticks)
+Probing time = 0.00 sec. (0.19 ticks)
+Clique table members: 344.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Tried aggregator 1 time.
+Aggregator did 10 substitutions.
+Reduced LP has 205 rows, 170 columns, and 895 nonzeros.
+Presolve time = 0.00 sec. (0.17 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =             0.000000
+Perturbation started.
+Iteration:    51   Dual objective     =             0.000000
+Removing perturbation.
+Initializing dual steep norms . . .
+Root relaxation solution time = 0.00 sec. (1.03 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           90.0000        0.0000           100.00%
+Found incumbent of value 90.000000 after 0.02 sec. (8.56 ticks)
+*     0     0      integral     0        0.0000        0.0000       93    0.00%
+Elapsed time = 0.02 sec. (8.62 ticks, tree = 0.00 MB, solutions = 2)
+Found incumbent of value 0.000000 after 0.02 sec. (8.62 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (8.68 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (8.68 ticks)
+MIP status(101): integer optimal solution
+Cplex Time: 0.02sec (det. 8.69 ticks)
+Fixing integer variables, and solving final LP...
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 2
+CPXPARAM_Threads                                 1
+CPXPARAM_Parallel                                1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+CPXPARAM_WorkDir                                 "D:\Github\CS524-Final-Project\225a\"
+Tried aggregator 1 time.
+LP Presolve eliminated 1821 rows and 2011 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.85 ticks)
+Fixed MIP status(1): optimal
+Cplex Time: 0.00sec (det. 1.43 ticks)
+
+Proven optimal solution.
+
+MIP Solution:            0.000000    (93 iterations, 0 nodes)
+Final Solve:             0.000000    (0 iterations)
+
+Best possible:           0.000000
+Absolute gap:            0.000000
+Relative gap:            0.000000
+
+--- Reading solution for model sr
+--- Executing after solve: elapsed 0:00:00.120
+--- gamsJupyter5.gms(80) 4 Mb
+--- GDX File D:\Github\CS524-Final-Project\_gams_py_gdb4.gdx
+*** Status: Normal completion
+--- Job gamsJupyter5.gms Stop 12/06/20 22:54:36 elapsed 0:00:00.135

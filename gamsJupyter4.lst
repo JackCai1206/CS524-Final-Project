@@ -1,0 +1,47 @@
+GAMS 32.2.0  rc62c018 Released Aug 26, 2020 WEX-WEI x86 64bit/MS Windows - 12/06/20 22:54:35 Page 4
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+C o m p i l a t i o n
+
+
+  21  display rank;
+
+
+COMPILATION TIME     =        0.000 SECONDS      3 MB  32.2.0 rc62c018 WEX-WEI
+GAMS 32.2.0  rc62c018 Released Aug 26, 2020 WEX-WEI x86 64bit/MS Windows - 12/06/20 22:54:35 Page 5
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+E x e c u t i o n
+
+
+----     21 PARAMETER rank  The rank A1 gives to A2 is the position of A2 on A1's preference list
+
+             1           2           3           4           5           6           7           8           9          10
+
+1                    2.000       4.000       6.000       7.000       5.000       8.000       1.000       3.000       9.000
+2        6.000                   2.000       1.000       5.000       8.000       9.000       3.000       4.000       7.000
+3        5.000       4.000                   8.000       1.000       2.000       6.000       3.000       9.000       7.000
+4        5.000       7.000       4.000                   8.000       6.000       2.000       9.000       3.000       1.000
+5        8.000       5.000       7.000       2.000                   6.000       1.000       4.000       9.000       3.000
+6        7.000       1.000       4.000       5.000       8.000                   3.000       2.000       9.000       6.000
+7        2.000       1.000       4.000       7.000       5.000       8.000                   3.000       9.000       6.000
+8        7.000       3.000       8.000       2.000       4.000       5.000       6.000                   9.000       1.000
+9        9.000       3.000       6.000       7.000       4.000       1.000       2.000       8.000                   5.000
+10       2.000       5.000       1.000       9.000       4.000       3.000       8.000       7.000       6.000
+
+
+
+EXECUTION TIME       =        0.000 SECONDS      4 MB  32.2.0 rc62c018 WEX-WEI
+
+
+USER: Introduction to Optimization (CS/ISyE/ECE 524) S200826/0001AB-GEN
+      University of Wisconsin-Madison, Computer Sciences Dept.   DCE850
+      License for teaching and research at degree granting institutions
+
+
+**** FILE SUMMARY
+
+Restart    D:\Github\CS524-Final-Project\_gams_py_gcp0.g00
+Input      D:\Github\CS524-Final-Project\gamsJupyter4.gms
+Output     D:\Github\CS524-Final-Project\gamsJupyter4.lst
+Save       D:\Github\CS524-Final-Project\_gams_py_gcp3.g0?
+
+**** WARNING - COMPILER OPTIONS ARE NON DEFAULT     EOLCOM # 

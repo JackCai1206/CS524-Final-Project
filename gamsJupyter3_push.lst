@@ -1,0 +1,43 @@
+GAMS 32.2.0  rc62c018 Released Aug 26, 2020 WEX-WEI x86 64bit/MS Windows - 12/06/20 22:54:35 Page 1
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+C o m p i l a t i o n
+
+
+GDXIN   D:\Github\CS524-Final-Project\_gams_py_gdb1.gdx
+--- LOAD  A = 1:A
+--- LOAD  rank = 5:rank
+--- LOAD  c = 6:c
+--- MERGE g = 7:g
+GAMS 32.2.0  rc62c018 Released Aug 26, 2020 WEX-WEI x86 64bit/MS Windows - 12/06/20 22:54:35 Page 2
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Include File Summary
+
+
+   SEQ   GLOBAL TYPE      PARENT   LOCAL  FILENAME
+
+     1        1 INPUT          0       0  D:\Github\CS524-Final-Project\gamsJupyter3_push.gms
+     2        9 GDXIN          1       1  D:\Github\CS524-Final-Project\_gams_py_gdb1.gdx
+
+
+COMPILATION TIME     =        0.000 SECONDS      3 MB  32.2.0 rc62c018 WEX-WEI
+GAMS 32.2.0  rc62c018 Released Aug 26, 2020 WEX-WEI x86 64bit/MS Windows - 12/06/20 22:54:35 Page 3
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+E x e c u t i o n
+
+
+EXECUTION TIME       =        0.000 SECONDS      3 MB  32.2.0 rc62c018 WEX-WEI
+
+
+USER: Introduction to Optimization (CS/ISyE/ECE 524) S200826/0001AB-GEN
+      University of Wisconsin-Madison, Computer Sciences Dept.   DCE850
+      License for teaching and research at degree granting institutions
+
+
+**** FILE SUMMARY
+
+Restart    D:\Github\CS524-Final-Project\_gams_py_gcp0.g00
+Input      D:\Github\CS524-Final-Project\gamsJupyter3_push.gms
+Output     D:\Github\CS524-Final-Project\gamsJupyter3_push.lst
+Save       D:\Github\CS524-Final-Project\_gams_py_gcp2.g0?
+
+**** WARNING - COMPILER OPTIONS ARE NON DEFAULT     EOLCOM # 
