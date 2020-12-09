@@ -1,4 +1,4 @@
---- Job gamsJupyter1_reset.gms Start 12/06/20 22:54:34 32.2.0 rc62c018 WEX-WEI x86 64bit/MS Windows
+--- Job gamsJupyter1_reset.gms Start 12/09/20 16:34:10 32.2.0 rc62c018 WEX-WEI x86 64bit/MS Windows
 --- Applying:
     D:\GAMS\gmsprmNT.txt
 --- GAMS Parameters defined
@@ -36,4 +36,4 @@ Licensee: Introduction to Optimization (CS/ISyE/ECE 524) S200826/0001AB-GEN
 --- Starting execution - empty program
 --- GDX File D:\Github\CS524-Final-Project\_gams_py_gdb0.gdx
 *** Status: Normal completion
---- Job gamsJupyter1_reset.gms Stop 12/06/20 22:54:34 elapsed 0:00:00.010
+--- Job gamsJupyter1_reset.gms Stop 12/09/20 16:34:10 elapsed 0:00:00.006

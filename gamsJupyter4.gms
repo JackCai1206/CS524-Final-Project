@@ -1,3 +1,0 @@
-$offeolcom
-$eolcom #
-display rank;
